@@ -1,11 +1,12 @@
 *{
     margin: 0;
-    background-color: black;
+    
     color: white;
     padding: 0;
 }
 
 header{
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +28,20 @@ a:link{
 }
 .nav_links li a:hover {
     color: #0088a9;
+}
+
+.wrap{
+    width: 1480px;
+    height : 870px; 
+    background: url(../img/fotoDM.jpg);
+    align-content: center;
+   
+
+}
+
+.wrap-text{
+   
+    text-align: center;
+    padding-top: 400px;
+
 }
