@@ -110,3 +110,43 @@ main{
     padding-top: 200px;
 }
 
+.noticias{
+    background: url(../img/album-deluxe.jpg);
+    height: 270px;
+    width: 450px;
+    background-size: cover;
+    align-content: center;
+    margin: 3px;
+}
+
+.noticias_text{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.noticias2{
+    background: url(../img/depeche-mode.jpg);
+    height: 270px;
+    width: 450px;
+    background-size: cover;
+    margin: 3px;
+    
+}
+
+.noticias3{
+    background: url(../img/universe.jpg);
+    height: 270px;
+    width: 450px;
+    background-size: cover;
+    align-content: center;
+    margin: 3px;
+}
+
+.noticias_relacionadas{
+    display: flex;
+}
+
+.text4{
+    padding-bottom: 50px;
+    padding-top: 90px;
+}
