@@ -6,12 +6,17 @@
 }
 
 header{
-    background-color: #201F1F;
+    background: linear-gradient(black, #201F1F) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 
+}
+
+.logosony{
+    height: auto;
+    width: 60px;
 }
 
 a:link{
@@ -33,7 +38,7 @@ a:link{
 .wrap{
     width: 1480px;
     height : 870px; 
-    background: url(../img/fotoDM.jpg);
+    background: linear-gradient(to bottom,rgb(0 0 0/ .5), rgb(0 0 0/ .3)), url(../img/fotoDM.jpg);
     align-content: center;
    
 
@@ -149,4 +154,36 @@ main{
 .text4{
     padding-bottom: 50px;
     padding-top: 90px;
+}
+
+footer{
+    background-color: #201F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    padding-top: 150px;
+
+}
+
+.logo1{
+    height: auto;
+    width: 100px;
+    margin: 30px;
+}
+
+.logo2{
+    
+    height: auto;
+    width: 100px;
+    margin-left: -50px;
+
+    
+}
+
+ul{
+    list-style: none;
+}
+footer ul li{
+    text-decoration: none;
 }
